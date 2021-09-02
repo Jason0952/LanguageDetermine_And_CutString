@@ -12,10 +12,13 @@ namespace StringTest
 	{
 		protected void Page_Load( object sender, EventArgs e )
 		{
-			Label1.Text = "您對哪項產品感興趣？,aaaa:::應用,bbbb,:::您是從哪裡得知產品訊息的？,cccc,,";
-			Label2.Text = "Which products are you interested?,aaaa,bbbb,cccc,:::Application,aabb,bbcc,ccdd,ddee,eeff,ffgg,Other,other測試:::Where do you learn our product from?,abab,bcbc,cdcd,dede,Other,other測試";
-			Label3.Text = "中文";
-			Label6.Text = "英文";
+			if ( !IsPostBack )
+			{
+				Label1.Text = "您對哪項產品感興趣？,aaaa:::應用,bbbb,:::您是從哪裡得知產品訊息的？,cccc,,";
+				Label2.Text = "Which products are you interested?,aaaa,bbbb,cccc,:::Application,aabb,bbcc,ccdd,ddee,eeff,ffgg,Other,other測試:::Where do you learn our product from?,abab,bcbc,cdcd,dede,Other,other測試";
+				Label3.Text = "中文";
+				Label6.Text = "英文";
+			}
 		}
 
 		protected void Button1_Click( object sender, EventArgs e )
