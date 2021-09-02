@@ -1,0 +1,7 @@
+D:\StringTest\StringTest\bin\StringTest.dll.config
+D:\StringTest\StringTest\bin\StringTest.dll
+D:\StringTest\StringTest\bin\StringTest.pdb
+D:\StringTest\StringTest\obj\Debug\StringTest.csproj.AssemblyReference.cache
+D:\StringTest\StringTest\obj\Debug\StringTest.csproj.CoreCompileInputs.cache
+D:\StringTest\StringTest\obj\Debug\StringTest.dll
+D:\StringTest\StringTest\obj\Debug\StringTest.pdb

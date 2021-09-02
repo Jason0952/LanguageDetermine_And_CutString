@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中英文判別和字串切割", "StringTest\中英文判別和字串切割.csproj", "{338E62F5-4B3D-4086-8BE1-A96A29DE507E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{338E62F5-4B3D-4086-8BE1-A96A29DE507E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338E62F5-4B3D-4086-8BE1-A96A29DE507E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338E62F5-4B3D-4086-8BE1-A96A29DE507E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338E62F5-4B3D-4086-8BE1-A96A29DE507E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7AF1093-BE30-46D5-87F3-E1722070932A}
+	EndGlobalSection
+EndGlobal

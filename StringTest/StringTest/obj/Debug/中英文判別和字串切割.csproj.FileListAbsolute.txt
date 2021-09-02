@@ -1,0 +1,7 @@
+D:\StringTest\StringTest\obj\Debug\中英文判別和字串切割.csproj.AssemblyReference.cache
+D:\StringTest\StringTest\obj\Debug\中英文判別和字串切割.csproj.CoreCompileInputs.cache
+D:\StringTest\StringTest\obj\Debug\StringTest.dll
+D:\StringTest\StringTest\obj\Debug\StringTest.pdb
+D:\StringTest\StringTest\bin\StringTest.dll.config
+D:\StringTest\StringTest\bin\StringTest.dll
+D:\StringTest\StringTest\bin\StringTest.pdb
