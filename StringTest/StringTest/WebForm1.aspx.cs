@@ -16,8 +16,8 @@ namespace StringTest
 			{
 				Label1.Text = "您對哪項產品感興趣？,aaaa:::應用,bbbb,:::您是從哪裡得知產品訊息的？,cccc,,";
 				Label2.Text = "Which products are you interested?,aaaa,bbbb,cccc,:::Application,aabb,bbcc,ccdd,ddee,eeff,ffgg,Other,other測試:::Where do you learn our product from?,abab,bcbc,cdcd,dede,Other,other測試";
-				Label3.Text = "中文";
-				Label6.Text = "英文";
+				Label3.Text = "Chinese";
+				Label6.Text = "English";
 			}
 		}
 
@@ -42,6 +42,7 @@ namespace StringTest
 			string[] Second_Inquiry = Inquiry[1].Split(',');
 			string[] Third_Inquiry = Inquiry[2].Split(',');
 
+			//Determine Language to do something what u wanna do
 			if ( !Regex.IsMatch(Inquiry[0].Split(',')[0], @"[\u4e00-\u9fa5]") )
 			{
 				if ( Inquiry[0].Contains("other") )
@@ -135,6 +136,7 @@ namespace StringTest
 			string[] Second_Inquiry = Inquiry[1].Split(',');
 			string[] Third_Inquiry = Inquiry[2].Split(',');
 
+			//Determine Language to do something what u wanna do
 			if ( !Regex.IsMatch(Inquiry[0].Split(',')[0], @"[\u4e00-\u9fa5]") )
 			{
 				if ( Inquiry[0].Contains("other") )
